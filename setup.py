@@ -94,12 +94,12 @@ def run_setup(build_c):
     with open('README.rst') as readme:
         long_description = readme.read()
 
-    setup(name="jellyfish",
+    setup(name="jellyfish-wheel",
           version="0.7.0",
           platforms=["any"],
           description=("a library for doing approximate and "
                        "phonetic matching of strings."),
-          url="http://github.com/jamesturk/jellyfish",
+          url="http://github.com/jezeniel/jellyfish-wheel",
           long_description=long_description,
           classifiers=["Development Status :: 4 - Beta",
                        "Intended Audience :: Developers",

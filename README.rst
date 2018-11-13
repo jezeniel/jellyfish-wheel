@@ -1,6 +1,6 @@
-=========
-jellyfish
-=========
+===============
+jellyfish-wheel
+===============
 
 .. image:: https://travis-ci.org/jamesturk/jellyfish.svg?branch=master
     :target: https://travis-ci.org/jamesturk/jellyfish
@@ -17,6 +17,9 @@ jellyfish
 
 .. image:: https://ci.appveyor.com/api/projects/status/9xeyl1f5sd5pl40h?svg=true
     :target: https://ci.appveyor.com/project/jamesturk/jellyfish/
+
+This is a simple fork of https://github.com/jamesturk/jellyfish package,
+There are no code change, the only intention is to provide `manylinux` wheels for pypi.
 
 Jellyfish is a python library for doing approximate and phonetic matching of strings.
 
